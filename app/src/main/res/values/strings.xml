@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PIOCompiler</string>
+    <string name="action_settings">导入</string>
+</resources>
