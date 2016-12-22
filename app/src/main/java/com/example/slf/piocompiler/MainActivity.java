@@ -70,6 +70,19 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            inputText.setText("const a=10;\n" +
+                    "var b,c;\n" +
+                    "procedure p;\n" +
+                    "begin\n" +
+                    "  b:=4;\n" +
+                    "  c:=b+a\n" +
+                    "end;\n" +
+                    "\n" +
+                    "begin\n" +
+                    "   call  p;\n" +
+                    "   b:=b-1;\n" +
+                    "   write(2*c-b);\n" +
+                    "end;");
             return true;
         }
 
